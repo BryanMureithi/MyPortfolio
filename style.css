@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@400;600;700&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Open+Sans:wght@400;600;700&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Open+Sans:wght@400;600;700&family=Poppins:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-size: 14px;
+    justify-content: center;
+}
+
+.desc {
+    font-family: Montserrat ;
+    font-size: large;
+}
+
+p {
+    margin-left: 20px;
+}
+
+h2 {
+    margin-left: 20px;
+}
+
+.container {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 30%;
+    margin: 50px;
+    margin-left: 25rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+
+.p2 {
+    text-decoration: line-through;
+    font-size: small;
+    color: gray;
+}
+
+.img {
+    width: 46%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.head {
+    color: gray;
+    font-family: 'Fraunces', serif;
+}
+
+.name {
+    font-weight: bolder;
+    font-family: 'Fraunces', serif;
+    font-size: xx-large;
+}
+
+.info {
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+}
+
+.price {
+    font-family: 'Fraunces', serif;
+    font-size: xx-large;
+    color: hsl(158, 36%, 37%);
+}
+
+
+.btn {
+    width: 80%;
+    height: 20x;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: hsl(158, 36%, 37%);
+    color: #ffffff;
+    margin-left: 30px;
+    margin-bottom: 14px;
+    font-family: 'Open Sans', sans-serif;
+
+}
